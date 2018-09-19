@@ -455,7 +455,13 @@ string mechanism_type_name(CK_MECHANISM_TYPE val) {
     case CKM_DSA_PARAMETER_GEN: return "CKM_DSA_PARAMETER_GEN";
     case CKM_DH_PKCS_PARAMETER_GEN: return "CKM_DH_PKCS_PARAMETER_GEN";
     case CKM_X9_42_DH_PARAMETER_GEN: return "CKM_X9_42_DH_PARAMETER_GEN";
+    case CKM_AES_KEY_WRAP: return "CKM_AES_KEY_WRAP";
+    case CKM_AES_CMAC: return "CKM_AES_CMAC";
     case CKM_VENDOR_DEFINED: return "CKM_VENDOR_DEFINED";
+    case CKM_DSA_SHA224: return "CKM_DSA_SHA224";
+    case CKM_DSA_SHA256: return "CKM_DSA_SHA256";
+    case CKM_DSA_SHA384: return "CKM_DSA_SHA384";
+    case CKM_DSA_SHA512: return "CKM_DSA_SHA512";
     default: return "UNKNOWN";
   }
 }
